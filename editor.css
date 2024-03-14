@@ -1,0 +1,13 @@
+#editor {
+    min-height: 200px;
+    min-width: 800px;
+    max-width: 100%;
+
+    :focus {
+        outline: none;
+    }
+
+    :nth-child(n+3) {
+        text-indent: 2em;
+    }
+}
